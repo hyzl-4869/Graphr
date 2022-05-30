@@ -1,0 +1,4388 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Title: tsne.eps
+%%Creator: matplotlib version 3.3.2, http://matplotlib.org/
+%%CreationDate: Mon Nov  2 17:55:04 2020
+%%Orientation: portrait
+%%BoundingBox: 75.6 223.20000000000002 536.4 568.8
+%%EndComments
+%%BeginProlog
+/mpldict 9 dict def
+mpldict begin
+/m { moveto } bind def
+/l { lineto } bind def
+/r { rlineto } bind def
+/c { curveto } bind def
+/cl { closepath } bind def
+/box {
+      m
+      1 index 0 r
+      0 exch r
+      neg 0 r
+      cl
+    } bind def
+/clipbox {
+      box
+      clip
+      newpath
+    } bind def
+%!PS-Adobe-3.0 Resource-Font
+%%Title: DejaVu Sans Bold
+%%Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved. DejaVu changes are in public domain 
+%%Creator: Converted from TrueType to type 3 by PPR
+25 dict begin
+/_d{bind def}bind def
+/_m{moveto}_d
+/_l{lineto}_d
+/_cl{closepath eofill}_d
+/_c{curveto}_d
+/_sc{7 -1 roll{setcachedevice}{pop pop pop pop pop pop}ifelse}_d
+/_e{exec}_d
+/FontName /DejaVuSans-Bold def
+/PaintType 0 def
+/FontMatrix[.001 0 0 .001 0 0]def
+/FontBBox[-1069 -415 1975 1174]def
+/FontType 3 def
+/Encoding [ /zero /one /two /three ] def
+/FontInfo 10 dict dup begin
+/FamilyName (DejaVu Sans) def
+/FullName (DejaVu Sans Bold) def
+/Notice (Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved. DejaVu changes are in public domain ) def
+/Weight (Bold) def
+/Version (Version 2.35) def
+/ItalicAngle 0.0 def
+/isFixedPitch false def
+/UnderlinePosition -130 def
+/UnderlineThickness 90 def
+end readonly def
+/CharStrings 5 dict dup begin
+/.notdef 0 def
+/zero{696 0 48 -13 648 742 _sc
+460 365 _m
+460 456 451 520 434 558 _c
+417 595 388 614 348 614 _c
+308 614 279 595 262 558 _c
+244 520 236 456 236 365 _c
+236 273 244 208 262 170 _c
+279 132 308 114 348 114 _c
+388 114 416 132 434 170 _c
+451 208 460 273 460 365 _c
+648 364 _m
+648 243 622 150 570 85 _c
+518 19 444 -13 348 -13 _c
+252 -13 178 19 126 85 _c
+74 150 48 243 48 364 _c
+48 484 74 577 126 643 _c
+178 709 252 742 348 742 _c
+444 742 518 709 570 643 _c
+622 577 648 484 648 364 _c
+_cl}_d
+/one{696 0 113 0 627 729 _sc
+117 130 _m
+283 130 _l
+283 601 _l
+113 566 _l
+113 694 _l
+282 729 _l
+461 729 _l
+461 130 _l
+627 130 _l
+627 0 _l
+117 0 _l
+117 130 _l
+_cl}_d
+/two{696 0 79 0 609 742 _sc
+288 138 _m
+609 138 _l
+609 0 _l
+79 0 _l
+79 138 _l
+345 373 _l
+369 394 386 415 398 436 _c
+409 456 415 478 415 500 _c
+415 534 403 561 380 582 _c
+357 603 327 614 289 614 _c
+259 614 227 607 193 595 _c
+158 582 121 563 81 539 _c
+81 699 _l
+123 713 165 723 207 731 _c
+248 738 288 742 328 742 _c
+415 742 483 722 531 684 _c
+579 646 604 592 604 524 _c
+604 484 593 446 573 412 _c
+552 378 509 332 444 275 _c
+288 138 _l
+_cl}_d
+/three{{696 0 67 -13 616 742 _sc
+466 393 _m
+515 380 552 358 578 327 _c
+603 295 616 255 616 207 _c
+616 135 588 80 533 43 _c
+477 5 397 -13 291 -13 _c
+253 -13 216 -10 178 -4 _c
+140 1 103 10 67 22 _c
+67 167 _l
+102 149 137 136 172 127 _c
+206 118 240 114 274 114 _c
+324 114 362 122 388 140 _c
+414 157 428 182 428 214 _c
+428 247 414 272 387 289 _c
+360 306 320 315 267 315 _c
+}_e{192 315 _l
+192 436 _l
+271 436 _l
+318 436 353 443 376 458 _c
+399 472 411 495 411 526 _c
+411 554 399 575 377 591 _c
+355 606 323 614 282 614 _c
+252 614 221 610 190 603 _c
+159 596 128 586 98 573 _c
+98 711 _l
+135 721 172 729 208 734 _c
+244 739 280 742 316 742 _c
+410 742 481 726 528 695 _c
+575 664 599 617 599 555 _c
+599 512 587 477 565 450 _c
+543 423 510 404 466 393 _c
+_cl}_e}_d
+end readonly def
+
+/BuildGlyph
+ {exch begin
+ CharStrings exch
+ 2 copy known not{pop /.notdef}if
+ true 3 1 roll get exec
+ end}_d
+
+/BuildChar {
+ 1 index /Encoding get exch get
+ 1 index /BuildGlyph get exec
+}_d
+
+FontName currentdict end definefont pop
+%!PS-Adobe-3.0 Resource-Font
+%%Title: DejaVu Sans
+%%Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved. DejaVu changes are in public domain 
+%%Creator: Converted from TrueType to type 3 by PPR
+25 dict begin
+/_d{bind def}bind def
+/_m{moveto}_d
+/_l{lineto}_d
+/_cl{closepath eofill}_d
+/_c{curveto}_d
+/_sc{7 -1 roll{setcachedevice}{pop pop pop pop pop pop}ifelse}_d
+/_e{exec}_d
+/FontName /DejaVuSans def
+/PaintType 0 def
+/FontMatrix[.001 0 0 .001 0 0]def
+/FontBBox[-1021 -463 1793 1232]def
+/FontType 3 def
+/Encoding [ /hyphen /E /N /S /T ] def
+/FontInfo 10 dict dup begin
+/FamilyName (DejaVu Sans) def
+/FullName (DejaVu Sans) def
+/Notice (Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved. DejaVu changes are in public domain ) def
+/Weight (Book) def
+/Version (Version 2.35) def
+/ItalicAngle 0.0 def
+/isFixedPitch false def
+/UnderlinePosition -130 def
+/UnderlineThickness 90 def
+end readonly def
+/CharStrings 6 dict dup begin
+/.notdef 0 def
+/hyphen{361 0 49 234 312 314 _sc
+49 314 _m
+312 314 _l
+312 234 _l
+49 234 _l
+49 314 _l
+_cl}_d
+/E{632 0 98 0 568 729 _sc
+98 729 _m
+559 729 _l
+559 646 _l
+197 646 _l
+197 430 _l
+544 430 _l
+544 347 _l
+197 347 _l
+197 83 _l
+568 83 _l
+568 0 _l
+98 0 _l
+98 729 _l
+_cl}_d
+/N{748 0 98 0 650 729 _sc
+98 729 _m
+231 729 _l
+554 119 _l
+554 729 _l
+650 729 _l
+650 0 _l
+517 0 _l
+194 610 _l
+194 0 _l
+98 0 _l
+98 729 _l
+_cl}_d
+/S{{635 0 66 -13 579 742 _sc
+535 705 _m
+535 609 _l
+497 627 462 640 429 649 _c
+395 657 363 662 333 662 _c
+279 662 237 651 208 631 _c
+179 610 165 580 165 542 _c
+165 510 174 485 194 469 _c
+213 452 250 439 304 429 _c
+364 417 _l
+437 403 491 378 526 343 _c
+561 307 579 260 579 201 _c
+579 130 555 77 508 41 _c
+460 5 391 -13 300 -13 _c
+265 -13 228 -9 189 -2 _c
+}_e{150 5 110 16 69 32 _c
+69 134 _l
+109 111 148 94 186 83 _c
+224 71 262 66 300 66 _c
+356 66 399 77 430 99 _c
+460 121 476 152 476 194 _c
+476 230 465 258 443 278 _c
+421 298 385 313 335 323 _c
+275 335 _l
+201 349 148 372 115 404 _c
+82 435 66 478 66 534 _c
+66 598 88 649 134 686 _c
+179 723 242 742 322 742 _c
+356 742 390 739 426 733 _c
+461 727 497 717 535 705 _c
+}_e{_cl}_e}_d
+/T{611 0 -2 0 614 729 _sc
+-2 729 _m
+614 729 _l
+614 646 _l
+355 646 _l
+355 0 _l
+256 0 _l
+256 646 _l
+-2 646 _l
+-2 729 _l
+_cl}_d
+end readonly def
+
+/BuildGlyph
+ {exch begin
+ CharStrings exch
+ 2 copy known not{pop /.notdef}if
+ true 3 1 roll get exec
+ end}_d
+
+/BuildChar {
+ 1 index /Encoding get exch get
+ 1 index /BuildGlyph get exec
+}_d
+
+FontName currentdict end definefont pop
+end
+%%EndProlog
+mpldict begin
+75.6 223.2 translate
+460.8 345.6 0 0 clipbox
+gsave
+0 0 m
+460.8 0 l
+460.8 345.6 l
+0 345.6 l
+cl
+1.000 setgray
+fill
+grestore
+gsave
+57.6 38.016 m
+414.72 38.016 l
+414.72 304.128 l
+57.6 304.128 l
+cl
+1.000 setgray
+fill
+grestore
+0.800 setlinewidth
+0 setlinejoin
+2 setlinecap
+[] 0 setdash
+0.000 setgray
+gsave
+57.6 38.016 m
+57.6 304.128 l
+stroke
+grestore
+gsave
+414.72 38.016 m
+414.72 304.128 l
+stroke
+grestore
+gsave
+57.6 38.016 m
+414.72 38.016 l
+stroke
+grestore
+gsave
+57.6 304.128 m
+414.72 304.128 l
+stroke
+grestore
+0.894 0.102 0.110 setrgbcolor
+/DejaVuSans-Bold findfont
+9.000 scalefont
+setfont
+gsave
+364.101680 196.194319 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+97.267390 254.982050 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+198.560118 259.919627 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+169.246412 59.724681 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+379.063569 210.047719 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+172.025745 215.728418 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+117.139399 121.504027 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+206.671264 81.591811 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+361.431774 233.586086 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+159.534404 241.740213 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+103.790189 145.522787 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+225.497061 105.036176 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+399.829663 211.338932 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+376.399145 232.213665 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+165.864023 249.463513 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+216.358177 81.136075 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+159.196151 251.365465 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+322.822067 196.524198 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+338.343903 211.948034 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+205.067423 258.438899 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+200.427522 263.334985 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+200.505305 264.339474 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+361.342776 241.157750 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+161.402317 247.453193 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+198.507534 260.588751 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+202.382207 89.514411 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+216.197311 83.296176 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+219.552524 85.622866 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+213.481404 94.765459 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+154.696851 253.249316 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+350.696328 237.919627 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+197.973418 264.588054 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+196.877905 266.311354 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+336.107776 192.701703 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+338.651709 205.883938 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+156.872318 247.001977 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+223.213830 95.278267 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+84.361590 152.190038 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+162.604970 255.974633 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+220.913460 88.160299 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+166.173159 250.599129 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+214.358900 99.284408 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+97.968902 254.513127 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+217.524434 96.370425 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+81.207413 293.519488 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+343.501809 242.145898 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+57.600000 185.189655 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+161.886945 227.890145 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+110.583971 189.008287 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+203.741860 260.538742 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+206.119715 257.801363 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+364.492750 235.354165 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+357.977795 209.720161 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+175.431809 233.394252 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+92.064944 160.351651 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+221.583694 99.766550 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+381.281218 233.668979 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+163.860549 229.210356 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+100.431979 173.305094 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+222.571629 85.318499 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+342.992268 236.368327 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+168.979166 228.535868 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+145.529456 152.914974 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+223.216847 101.863996 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+376.065625 228.341882 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+389.413243 207.709375 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+165.726535 235.130064 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+209.830940 97.299176 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+170.038944 230.962248 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+353.804020 207.296504 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+353.926927 244.936657 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+114.156336 172.993896 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+103.030330 172.078892 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+74.307693 155.013105 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+342.645297 242.509650 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+162.771942 237.061366 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+77.583107 139.908872 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+224.434245 84.356011 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+225.155201 90.373718 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+231.076302 100.595381 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+217.829953 89.349713 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+157.526195 227.084306 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+349.986169 217.526427 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+146.257705 154.291011 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+108.387701 174.330482 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+364.704170 240.965024 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+346.517817 241.199204 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+165.182246 233.761773 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+223.163146 94.962204 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+94.706007 161.414400 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+155.622920 223.643419 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+225.152376 94.084549 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+168.504958 227.909835 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+217.887705 92.382914 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+153.367426 235.251795 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+227.974022 99.849156 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+138.701493 234.259269 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+354.155424 206.448103 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+224.129785 107.651039 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+154.434450 233.333071 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+71.540974 155.648434 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+71.760642 157.502780 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+113.036580 174.570654 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+352.845178 226.159009 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+374.450166 214.644599 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+91.440359 280.219753 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+105.342261 156.017317 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+168.558448 62.976267 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+340.998704 203.706873 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+125.132603 263.148992 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+103.933140 154.622466 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+190.848135 71.169674 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+370.368378 205.651310 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+121.229323 270.690292 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+103.654940 162.437518 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+202.173702 56.294484 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+376.342936 212.039252 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+343.681508 167.749572 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+93.974435 293.065399 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+200.754854 67.235024 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+96.213194 269.827376 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+322.983118 195.935336 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+370.227549 199.516843 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+89.459237 165.014966 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+107.846139 167.567782 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+108.633879 155.436797 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+369.599337 202.393796 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+155.762718 224.634224 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+98.504565 155.638550 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+179.084406 70.102593 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+212.389788 75.159050 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+205.907762 67.611113 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+195.239360 69.802990 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+86.507716 285.166945 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+363.925162 210.416477 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+110.314719 157.406669 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+95.274131 167.598762 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+376.292755 206.061888 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+365.548399 207.074675 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+121.463367 266.028869 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+194.710177 77.582953 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+106.380107 165.552671 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+123.809224 264.531676 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+202.905343 75.177564 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+90.455709 274.293367 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+177.754050 66.950202 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+76.382070 280.983315 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+176.647301 68.176917 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+75.647472 265.703865 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+329.680763 218.385818 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+200.228251 52.915570 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+97.938782 300.967337 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+107.116499 159.868858 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+95.024849 168.843765 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+95.228981 151.942345 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+338.254719 199.488115 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+195.476588 39.780147 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+328.688705 202.944236 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+182.020104 230.301308 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+114.340896 123.596777 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+208.476116 70.142004 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+350.059334 210.474453 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+142.117738 246.067214 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+124.157961 128.503638 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+160.860004 78.203313 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+350.015421 219.074700 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+155.064273 238.707192 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+94.661346 122.027829 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+256.340371 83.788741 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+384.423933 231.539233 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+326.261859 203.758818 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+163.799040 240.819300 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+165.124702 80.393609 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+140.330302 251.855216 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+355.486188 206.451197 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+344.660371 216.114803 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+122.615813 127.768970 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+110.932079 133.010597 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+116.085347 132.691749 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+368.494336 183.569316 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+73.491781 208.803836 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+126.495498 130.986856 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+166.922644 83.750805 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+158.510191 75.240868 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+163.852969 82.116236 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+156.861846 73.588788 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+160.058854 241.795271 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+390.881143 205.020439 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+109.887558 121.479336 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+94.460778 140.769728 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+367.071109 195.365555 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+338.323612 207.734954 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+150.078310 249.009921 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+158.841888 75.058674 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+80.109972 134.514413 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+146.843688 250.566776 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+157.458124 72.109086 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+162.540627 245.668095 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+163.096840 64.775149 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+153.128618 243.062775 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+164.917432 67.775159 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+147.856041 245.398327 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+322.714820 211.084316 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+152.031494 77.802094 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+159.213123 239.199856 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+90.436363 142.477924 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+92.589116 121.279297 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+201.302594 256.696843 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+379.167310 197.060760 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+389.108281 198.825144 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+67.854212 217.126762 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+147.112686 121.677935 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+239.177007 129.395762 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+351.167497 178.581387 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+75.656980 211.552297 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+132.320222 139.448554 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+232.463783 126.410059 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+391.231338 193.146068 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+77.364237 216.064955 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+133.373963 138.563850 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+228.102413 129.491672 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+390.771528 198.759792 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+363.203230 175.507392 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+79.209429 214.255700 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+238.242093 125.336380 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+77.484923 221.802454 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+341.503189 181.140102 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+375.317569 167.199306 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+126.449645 111.036229 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+123.097355 109.956193 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+129.507345 116.606225 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+381.089071 205.165041 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+81.095663 213.595860 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+123.280516 109.994876 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+241.480145 126.705251 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+239.590870 81.489838 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+236.179678 133.356136 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+237.254198 127.962277 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+75.176473 221.083893 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+334.039761 229.100201 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+138.227809 120.338885 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+103.804793 152.935782 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+381.165670 181.848561 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+393.969141 197.624495 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+79.744945 219.331052 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+242.527743 127.015113 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+82.381314 149.474203 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+74.304846 220.241146 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+233.413383 131.016888 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+82.030427 219.791271 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+231.634787 129.531016 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+69.279328 219.184505 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+235.913496 124.590055 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+107.281512 287.010277 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+352.228929 158.680274 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+234.891765 125.432196 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+62.379021 219.919166 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+119.562495 111.192272 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+113.637574 149.554937 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+124.370074 109.044992 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+386.668191 197.013344 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+373.381756 220.839393 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+114.963504 290.597956 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+126.857210 173.158495 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+231.579006 67.015223 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+330.416498 162.640643 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+98.810970 293.323748 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+122.704156 177.088243 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+235.649472 63.155622 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+372.232194 223.136311 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+98.482917 295.590985 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+126.023037 166.510847 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+193.014185 76.602377 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+366.052568 208.854672 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+351.766298 211.577419 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+121.932932 284.157957 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+233.061463 72.791184 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+121.190117 284.509475 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+357.268533 225.120732 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+332.701166 174.977972 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+146.642817 159.223888 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+139.628714 166.204111 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+150.657710 160.980777 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+363.675827 244.320898 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+87.703694 264.789809 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+150.651500 159.887204 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+230.525448 60.259565 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+228.380750 65.819106 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+225.796880 59.955759 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+196.357009 71.455751 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+111.856905 297.272886 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+375.390160 241.761475 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+142.803158 161.912890 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+118.453357 175.824084 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+381.125278 225.741932 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+362.172976 211.686947 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+88.692328 263.456516 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+230.699714 65.115817 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+85.781198 171.086361 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+107.555625 302.678665 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+226.751099 61.589653 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+102.981656 302.092773 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+161.744210 56.822744 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+110.278310 294.639564 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+161.717317 57.265992 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+114.084254 297.899410 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+356.747383 223.575392 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+192.351376 75.889872 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+117.651104 292.702954 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+129.562673 167.072248 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+133.752255 171.935490 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+119.066002 177.310704 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+404.197962 239.947005 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+349.224987 169.785130 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+70.058615 272.789077 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+89.177638 160.562947 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+157.312580 55.607105 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+378.252073 174.658932 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+74.221566 263.888944 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+92.001290 152.416038 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+185.859457 65.763794 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+374.356637 210.720847 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+85.035133 267.860363 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+85.262076 167.887387 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+186.830521 48.781159 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+372.579309 199.624918 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+375.457184 201.081438 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+111.486998 283.500900 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+183.904269 44.138711 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+101.258205 283.727162 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+322.799011 223.806008 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+319.523138 223.873585 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+106.898388 171.733988 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+72.454453 159.625176 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+88.384490 169.883392 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+394.174878 215.110150 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+81.737387 206.011540 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+80.499686 135.905065 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+183.774629 82.698592 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+184.162783 83.590765 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+218.685113 74.399077 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+204.620671 104.403888 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+103.974858 269.625127 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+366.272592 231.443750 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+80.434807 166.995634 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+75.554220 160.523145 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+370.876826 239.053493 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+356.021901 190.710971 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+94.792500 296.774450 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+200.828781 38.941410 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+152.677577 149.578839 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+93.544676 281.237980 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+174.199403 62.961525 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+80.220259 288.371556 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+186.186741 60.476222 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+83.258026 284.422656 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+176.300619 57.951272 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+81.419106 274.650758 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+364.751694 194.835870 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+195.687311 93.668141 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+103.468350 267.522103 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+77.966552 164.577201 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+163.794566 148.776058 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+123.603712 165.317155 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+324.987409 236.169465 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+80.940156 208.618963 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+106.354246 149.724071 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+194.528705 53.311763 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+356.680106 176.848009 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+79.934910 206.631409 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+71.905077 146.518333 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+172.836451 53.075325 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+359.042699 178.199343 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+84.056476 208.062960 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+110.322524 142.593109 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+166.359803 70.567183 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+373.454000 194.527000 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+361.448680 181.787434 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+60.795513 217.755066 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+157.419530 67.215540 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+67.729471 210.969271 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+109.571973 137.615624 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+138.022025 125.806704 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+357.413484 188.777190 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+71.496575 210.234133 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+122.253998 121.971177 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+183.058711 54.425683 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+174.055526 52.067857 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+254.143049 78.234279 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+253.484144 88.910857 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+63.337470 216.621723 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+362.413649 178.956596 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+138.882719 128.788340 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+136.111500 124.389494 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+349.315445 169.711928 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+346.665080 187.151066 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+68.662830 212.017807 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+255.119834 78.181154 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+96.607020 138.349164 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+80.581362 208.839521 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+195.742316 52.798494 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+70.502643 213.017236 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+255.694970 82.376247 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+64.156242 215.097323 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+181.468606 50.497860 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+62.851440 214.635680 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+368.475237 184.399033 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+253.293798 89.113751 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+74.067352 209.950608 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+123.813590 119.444877 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+139.591155 123.234315 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+95.321354 127.332950 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+357.920253 172.899343 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+368.468744 190.785985 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+114.046411 277.237248 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+89.523214 149.591456 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+205.821098 53.692022 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+349.078671 209.249904 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+100.055107 275.491340 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+114.778056 188.215474 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+207.258726 52.021673 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+328.398011 186.261350 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+77.104087 278.203566 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+141.189640 120.809736 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+211.239422 49.990548 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+370.177763 179.686315 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+340.423644 215.425019 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+105.109544 278.910330 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+220.420115 63.224850 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+80.987658 284.085052 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+318.558507 186.616601 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+318.872368 186.122388 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+147.283040 132.734607 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+380.751760 170.057908 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+105.795440 300.284168 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+141.431553 129.639118 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+218.837968 52.092893 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+218.423525 65.811205 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+224.873918 48.827755 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+218.337890 52.353655 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+77.888064 277.191988 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+377.098548 183.142640 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+125.949784 130.739606 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+156.888351 130.870101 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+382.263884 169.319328 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+375.390983 167.557415 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+87.747784 293.065769 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+208.727535 54.879935 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+109.983057 127.812415 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+73.836694 274.930766 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+208.917086 56.698423 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+106.169837 273.221213 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+193.729476 147.687566 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+88.913178 273.938990 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+211.604210 54.186787 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+76.820360 292.676780 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+371.095302 187.833073 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+217.469375 48.831792 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+83.510707 287.811444 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+97.628015 127.431179 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+115.030672 188.287669 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+145.125756 122.909746 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+366.563575 174.749743 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+384.499824 182.188154 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+152.884373 255.569505 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+88.987834 156.896977 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+217.503046 44.268110 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+363.885166 194.232088 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+155.713462 251.477781 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+110.998903 146.944144 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+221.642419 69.494125 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+362.467711 203.784295 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+139.973804 269.120186 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+128.977063 162.071859 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+214.177047 58.821639 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+334.770013 161.285275 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+414.720000 200.392116 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+96.632327 274.223176 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+62.203228 184.916381 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+145.528827 261.620676 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+405.703535 210.716466 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+410.289303 213.981469 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+139.588613 148.145290 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+130.522846 164.485699 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+92.607211 166.710790 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+335.870978 159.090146 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+65.765359 276.065624 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+113.522664 155.852326 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+215.341832 60.327841 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+195.698540 38.016000 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+227.613726 106.041122 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+218.224563 68.885305 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+86.398832 291.692047 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+334.239665 164.728536 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+117.301557 155.701591 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+151.118887 148.739616 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+331.695757 162.303766 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+336.344434 160.571064 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+77.554884 274.262706 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+211.910384 102.043217 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+114.241708 162.245747 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+141.523023 264.691566 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+212.058980 90.261050 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+82.550013 289.177051 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+212.772996 39.619939 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+84.604741 290.049059 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+201.234104 49.260063 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+90.126280 304.128000 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+328.617976 226.710103 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+212.350505 102.896189 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+138.853329 273.471291 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+84.653291 170.617468 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+98.629007 166.667536 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+118.340245 157.677378 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+328.552303 163.341641 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+327.953620 185.775334 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+191.120227 226.545811 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+149.719676 134.499738 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+204.456969 38.797158 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+338.593349 228.313338 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+142.798080 263.734463 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+144.587162 118.831074 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+217.323971 65.924740 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+343.089333 223.606738 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+172.300970 227.415329 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+151.899223 131.795652 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+177.775361 75.746023 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+371.851860 163.237563 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+369.926987 245.811461 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+68.553168 280.173383 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+209.122000 45.131035 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+63.227264 276.534245 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+359.783593 223.939678 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+356.435937 224.690076 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+158.541273 130.628750 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+161.472611 128.421702 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+166.796747 129.802321 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+396.695101 212.447839 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+167.525143 242.808810 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+157.843995 128.167530 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+198.726025 93.472923 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+231.820471 59.789326 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+226.695242 53.943637 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+226.403644 50.724441 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+80.602321 272.220032 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+381.158137 202.372891 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+121.581375 134.696006 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+169.591018 129.863986 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+365.887987 192.748929 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+340.171578 221.779778 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+156.207630 254.177080 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+205.735508 46.000519 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+134.190642 121.503653 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+70.642216 264.095718 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+196.482602 88.505916 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+68.487959 268.985653 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+189.244306 50.104859 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+68.421884 277.960327 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+231.463728 57.974855 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+74.367301 286.531353 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+345.064892 227.121521 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+212.721644 42.374746 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+69.839005 287.450280 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+154.868766 122.797207 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+141.528222 128.436787 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+147.528488 123.795106 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+370.412493 246.926924 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+359.256071 181.292839 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+186.816110 226.959979 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+82.758087 138.929652 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+167.200786 64.416265 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+347.610144 199.342006 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+185.806866 230.906472 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+74.618181 133.139803 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+163.009494 75.734286 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+349.617148 179.580099 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+170.879841 239.719877 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+86.640732 134.373889 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+171.317321 64.406397 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+342.176743 193.413472 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+343.881860 194.229032 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+177.851785 235.369187 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+187.633925 44.871048 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+180.753901 235.835534 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+355.709704 197.812565 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+342.427725 188.416163 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+101.540789 130.101918 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+71.031573 136.028268 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+88.244221 129.513750 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+372.363546 163.963283 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+187.847128 232.911170 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+84.026667 127.885031 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+163.950800 72.362943 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+187.359123 53.130921 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+167.642683 76.596253 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+197.795073 57.419848 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+187.675231 233.090236 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+365.187280 165.577825 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+87.964561 132.507486 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+88.412700 128.920880 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+370.498118 162.685897 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+353.424322 189.104274 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+187.983473 235.672557 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+180.508465 56.847872 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+70.231487 151.534073 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+188.650692 227.066385 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+187.616410 65.507936 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+171.153953 239.626989 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+187.587533 43.854482 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+183.041326 234.082182 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+192.710489 46.925140 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+183.232276 236.597379 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+342.668879 191.216025 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+180.576506 58.427824 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+189.811300 231.119814 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+96.187177 132.520207 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+140.375176 144.562197 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+82.052853 127.801491 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+361.528954 192.720306 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+362.225035 226.342716 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+62.718915 282.881950 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+109.003546 182.921205 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+205.575585 92.042718 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+349.612203 231.034652 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+85.695058 297.719305 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+168.005691 134.574804 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+230.045557 78.407215 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+368.631020 229.595405 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+87.412119 300.697707 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+129.182316 132.398840 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+198.231591 88.466639 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+366.006052 251.175299 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+346.041000 223.816705 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+65.835252 269.418206 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+57.996991 181.769673 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+67.817369 285.130886 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+359.727113 250.276898 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+318.127136 236.727659 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+172.353663 129.847568 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+110.530611 139.630007 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+169.656642 128.263055 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+335.726947 238.897956 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+82.190977 299.678417 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+124.529598 172.840615 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+58.469703 181.133340 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+57.862043 184.497753 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+173.712384 160.761035 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+58.013966 178.920580 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+74.110025 283.467282 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+357.578659 249.768306 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+168.364437 133.716457 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+378.465981 173.843381 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+69.491748 282.516542 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+203.419069 97.469414 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+86.436096 158.316206 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+63.071674 274.960130 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+208.720574 90.829312 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+62.904586 270.641464 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+198.276922 99.868604 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+68.685338 276.120691 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+203.085068 93.085626 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+67.863128 270.226235 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+368.032863 240.480965 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+209.260805 87.911092 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+65.640328 269.280475 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+75.250888 139.158788 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+155.364269 135.001694 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+381.297872 202.306200 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+341.682768 203.834518 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+105.112113 291.541784 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+101.343816 137.788743 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+154.368217 59.001110 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+344.282819 208.813217 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+115.118814 286.431047 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+143.099301 176.047702 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+186.921113 165.049302 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+323.615924 209.634825 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+96.806446 292.565921 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+134.109542 156.273020 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+196.187804 167.486785 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+368.850417 194.384784 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+372.501739 227.055941 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+106.845203 288.484467 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+178.399676 168.527474 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+101.261089 283.264450 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+384.114629 220.829650 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+375.186670 195.629243 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+70.871213 150.334448 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+85.949592 137.111901 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+72.236785 150.591244 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+387.654033 231.016100 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+96.131910 288.848214 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+75.153815 130.298887 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+183.708682 162.997089 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+181.348505 163.119153 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+151.017654 60.861188 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+gsave
+181.561941 165.247242 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+105.076782 279.746109 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+321.605138 219.551428 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+129.762445 152.057273 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+132.376297 162.351373 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+358.758056 201.749813 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+324.125484 209.000827 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+gsave
+113.006284 281.220257 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+201.557421 109.608369 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+133.871983 156.391321 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+108.154173 262.362584 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+202.552070 85.549844 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+104.739817 273.971053 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+185.543895 71.655781 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+100.996161 289.838795 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+196.218540 167.451533 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+112.010563 281.742177 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+gsave
+337.130468 238.572403 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.302 0.686 0.290 setrgbcolor
+gsave
+192.206230 69.956467 translate
+0.000000 rotate
+0.000000 0 m /three glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+110.766490 279.258679 translate
+0.000000 rotate
+0.000000 0 m /one glyphshow
+grestore
+0.216 0.494 0.722 setrgbcolor
+gsave
+101.639448 130.026649 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+91.579393 125.778837 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+gsave
+77.156393 128.062637 translate
+0.000000 rotate
+0.000000 0 m /two glyphshow
+grestore
+0.894 0.102 0.110 setrgbcolor
+gsave
+378.245604 226.709626 translate
+0.000000 rotate
+0.000000 0 m /zero glyphshow
+grestore
+0.000 setgray
+/DejaVuSans findfont
+12.000 scalefont
+setfont
+gsave
+218.800625 310.128000 translate
+0.000000 rotate
+0.000000 0 m /T glyphshow
+6.205078 0 m /hyphen glyphshow
+10.535156 0 m /S glyphshow
+18.152344 0 m /N glyphshow
+27.128906 0 m /E glyphshow
+grestore
+
+end
+showpage
